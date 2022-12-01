@@ -1,0 +1,4 @@
+* * * * * source /opt/homebrew/Caskroom/miniconda/base/bin/activate osrsdata && python ~/osrsdata/hiscores_deploy.py >> ~/osrsdata/hiscores_cron.txt 2>&1
+# chmod 777 ~/osrsdata/hiscores_cron.txt
+# chmod 777 ~/osrsdata/hiscores_deploy.py
+# crontab -e
